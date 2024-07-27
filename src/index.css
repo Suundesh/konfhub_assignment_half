@@ -1,0 +1,71 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+body {
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+  font-family: inherit;
+  margin: 0 0 10px;
+}
+
+p {
+  color: #666;
+  font-family: inherit;
+  line-height: 1.6;
+  margin: 0 0 10px;
+}
+
+/* Ensuring global box-sizing for better control */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Styling the App component container */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Responsive design for the entire app */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}

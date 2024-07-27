@@ -1,0 +1,28 @@
+/* SimpleTabs.css */
+.tabs-root {
+    width: 70%;
+  }
+  
+  .tabs-appbar {
+    background-color: white;
+  }
+  
+  .tabs {
+    color: black;
+  }
+  
+  .tab {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 16px; /* Add space between tabs */
+  }
+  
+  .tab-selected {
+    color: black; /* Custom text color */
+    border-bottom: 2px solid black; /* Custom bottom border */
+  }
+  
+  .tab-hover:hover {
+    opacity: 0.7; /* Hover effect */
+  }
+  
